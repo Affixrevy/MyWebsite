@@ -17,6 +17,10 @@ h1{
     text-align: center;
 }
 
+#front{
+    color:#fff;
+}
+
 .code{
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +45,7 @@ h1{
 }
 
 .parallax2{
-    background-image: url(Computer2.jpg);
+    background-image: url(DSC_9305.JPG);
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -57,10 +61,28 @@ h1{
     width: 100%;
     text-align: center;
     color: #000;
+}
 
+.caption2{
+    position: absolute;
+    left: 0;
+    top: 180vh;
+    width: 100%;
+    text-align: center;
+    color: #000;
 }
 
 span.FrontLogo{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(143, 143, 143);
+    color: #fff;
+    padding: 0.5em;
+    font-size: 2em;
+    letter-spacing: 0.2em;;
+}
+
+span.secondCaption{
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(143, 143, 143);
