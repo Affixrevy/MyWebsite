@@ -2,30 +2,35 @@
 <html>
 <head>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
 	<script src="https://unpkg.com/scrollreveal@4"></script>
 	<script>
-		ScrollReveal({ duration: 1000 })
+		ScrollReveal({ duration: 2000 })
 	</script>
 </head>
 <body>
 
 	<div class="parallax" >
 		<div class="caption" >
-			<h1 class="headline" id="front">Arthur Gao Photography</h1>
-			<!--<span class="FrontLogo" class="headline">Arthur Gao Photography</span>-->
+			<!--<h1 class="headline" id="front">Arthur Gao Photography</h1>-->
+			<span id="FrontLogo" class="headline">Arthur Gao Photography</span>
 		</div>
 	</div>
 
-	
-	<p class="tagline">
-		The perfect widgets.
-		<span class="punchline">Forever.</span>
-	</p>
+	<!--<br>-->
+
+	<div class="photoGrid">
+		<div class="showcase">
+			<img src="DSC_9305.JPG" class="showPhoto" alt="">	
+		</div>
+		<div class="showcase">
+			<img src="DSC_9324.JPG" class="showPhoto" alt="">
+		</div>
+	</div>
 
 	<script>
 		ScrollReveal().reveal('.headline', {delay: 1000 })
-		ScrollReveal().reveal('.tagline', { delay: 500 })
-		ScrollReveal().reveal('.punchline', { delay: 2000 })
+		ScrollReveal().reveal('.showcase', {interval: 500 })
     </script>
 </body>
 </html>

@@ -19,6 +19,8 @@ h1{
 
 #front{
     color:#fff;
+    font-size: 2em;
+    letter-spacing: 0.5em;
 }
 
 .code{
@@ -26,11 +28,6 @@ h1{
     margin-right: auto;
 }
 
-.photoGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-}
 .centeredPhoto{
     width: 100%;
 }
@@ -72,17 +69,20 @@ h1{
     color: #000;
 }
 
-span.FrontLogo{
+span#FrontLogo{
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(143, 143, 143);
     color: #fff;
     padding: 0.5em;
-    font-size: 2em;
-    letter-spacing: 0.2em;;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    border-radius: 8px;
 }
 
-span.secondCaption{
+
+
+/*span.secondCaption{
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(143, 143, 143);
@@ -90,4 +90,4 @@ span.secondCaption{
     padding: 0.5em;
     font-size: 2em;
     letter-spacing: 0.2em;;
-}
+}*/
